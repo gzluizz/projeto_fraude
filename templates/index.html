@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detecção de Fraudes em Transações Financeiras</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Detecção de Fraudes em Transações Financeiras</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="file">Carregar Arquivo CSV:</label>
+            <input type="file" name="file" id="file" required>
+            <button type="submit">Carregar</button>
+        </form>
+
+        {% if report %}
+            <h2>Relatório de Classificação:</h2>
+            <pre>{{ report }}</pre>
+
+            <h2>Matriz de Confusão:</h2>
+            <img src="data:image/png;base64,{{ cm_image }}" alt="Matriz de Confusão">
+        {% endif %}
+    </div>
+</body>
+</html>
