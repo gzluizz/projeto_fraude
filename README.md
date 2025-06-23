@@ -23,6 +23,7 @@ A aplicação permite ao usuário:
 
 ## Estrutura do Projeto
 
+```
 projeto_fraude_flask/
 ├── app.py # Arquivo principal que chama as rotas e roda a aplicação
 ├── scripts/
@@ -35,7 +36,7 @@ projeto_fraude_flask/
 ├── requirements.txt # Arquivo de dependências
 ├── uploads/ # Pasta para armazenar arquivos CSV enviados
 └── README.md # Este arquivo de documentação
-
+```
 
 ## Instalação
 
