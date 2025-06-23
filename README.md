@@ -45,7 +45,7 @@ projeto_fraude_flask/
 Clone este repositório para o seu ambiente local:
 
 ```bash
-git clone https://github.com/seu_usuario/seu_repositorio.git
+git clone https://github.com/gzluizz/projeto_fraude.git
 ```
 
 ### 2. Criar um Ambiente Virtual
