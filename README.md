@@ -95,6 +95,10 @@ Na página inicial, você verá um formulário de upload de arquivos.
 
 Selecione um arquivo CSV contendo os dados de transações financeiras (com uma coluna chamada Class que indica se a transação é fraude ou não) e clique em "Carregar".
 
+raizDoProjeto/data/credicard.zip
+
+(Necessario extrair o .csv compactado dentro do zip para efetuar o teste)
+
 Após o upload, você verá o relatório de classificação e a matriz de confusão gerada.
 
 ## Arquivos Importantes
